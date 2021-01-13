@@ -7,7 +7,7 @@ int main () {
     printf("Wie viele Zahlen moechten Sie eingeben?\n");
     scanf("%d", &Anzahl);
 
-    for(i=0; i<Anzahl; i++) {
+    for(i=1; i<Anzahl; i++) {
         printf("Zahl %d:", i);
         scanf("%d", &Eingabe);
 
